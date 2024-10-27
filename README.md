@@ -8,7 +8,7 @@ Let's take the example of the Image segmentation dataset that we downloaded from
 
 <table>
   <tr>
-    <th>Algorithms</th>
+    <th></th>
     <th>No Reduction</th>
     <th colspan="3">PCA</th>
     <th colspan="3">KernelPCA</th>
