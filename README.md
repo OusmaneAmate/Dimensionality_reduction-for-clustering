@@ -6,10 +6,111 @@ Once the dimension is reduced through these different dimension reduction techni
 Let's take the example of the Image segmentation dataset that we downloaded from UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/50/image+segmentation) containing instances randomly drawn from a database of 7 outdoor images, these images were manually segmented to create a classification for each pixel. The dataset contains 2310 observations, 19 features and 7 classes. The number of classes corresponds to the number of clusters (7 clusters), the number of features corresponds to the dimension (D=19) of the original data. So according to the experiment presented above, the target dimensions must be equal to 5, 6 and 10. The results of the experiment are grouped in the table below.
 
 
-| Algorithmes   | No Reduction| PCA           | KernelPCA    | VAE Autoencoder  | Isomap       | MDS          |
-|---------------|-------------|-5--|-6--|-10--|-5--|-6--|-10-|--5--|--6--|-10---|-5--|--6-|-10-|-5--|-6--|-10-|
-| Kmeans        |    0.47     |0.48|0.43|0.47 |0.24|0.47|0.45|0.44 |0.47 |0.5   |0.45|0.44|0.46|0.46|0.47|0.47|
-| Agglomerative |    0.35     |0.45|0.45|0.35 |0.4 |0.43|0.44|0.47 |0.44 |0.47  |0.34|0.37|0.39|0.45|0.43|0.36|
-| Gaussian      |    0.43     |0.45|0.4 |0.47 |0.38|0.41|0.49|0.42 |0.45 |0.46  |0.53|0.4 |0.53|0.44|0.51|0.4 |
-| Optics        |    0.25     |0.27|0.22|0.33 |0.31|0.3 |0.32|0.26 |0.27 |0.47  |0.21|0.2 |0.27|0.32|0.32|0.34|
+<table>
+  <tr>
+    <th>Algorithmes</th>
+    <th>No Reduction</th>
+    <th colspan="3">PCA</th>
+    <th colspan="3">KernelPCA</th>
+    <th colspan="3">VAE Autoencoder</th>
+    <th colspan="3">Isomap</th>
+    <th colspan="3">MDS</th>
+  </tr>
+  <tr>
+    <td>Nombre de features</td>
+    <td>19</td>
+    <td>5</td>
+    <td>6</td>
+    <td>10</td>
+    <td>5</td>
+    <td>6</td>
+    <td>10</td>
+    <td>5</td>
+    <td>6</td>
+    <td>10</td>
+    <td>5</td>
+    <td>6</td>
+    <td>10</td>
+    <td>5</td>
+    <td>6</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Kmeans</td>
+    <td>0.47</td>
+    <td>0.48</td>
+    <td>0.43</td>
+    <td>0.47</td>
+    <td>0.24</td>
+    <td>0.47</td>
+    <td>0.45</td>
+    <td>0.44</td>
+    <td>0.47</td>
+    <td>0.5</td>
+    <td>0.45</td>
+    <td>0.44</td>
+    <td>0.46</td>
+    <td>0.46</td>
+    <td>0.47</td>
+    <td>0.47</td>
+  </tr>
+  <tr>
+    <td>Agglomerative</td>
+    <td>0.35</td>
+    <td>0.45</td>
+    <td>0.45</td>
+    <td>0.35</td>
+    <td>0.4</td>
+    <td>0.43</td>
+    <td>0.44</td>
+    <td>0.47</td>
+    <td>0.44</td>
+    <td>0.47</td>
+    <td>0.34</td>
+    <td>0.37</td>
+    <td>0.39</td>
+    <td>0.45</td>
+    <td>0.43</td>
+    <td>0.36</td>
+  </tr>
+  <tr>
+    <td>Gaussian</td>
+    <td>0.43</td>
+    <td>0.45</td>
+    <td>0.4</td>
+    <td>0.47</td>
+    <td>0.38</td>
+    <td>0.41</td>
+    <td>0.49</td>
+    <td>0.42</td>
+    <td>0.45</td>
+    <td>0.46</td>
+    <td>0.53</td>
+    <td>0.4</td>
+    <td>0.53</td>
+    <td>0.44</td>
+    <td>0.51</td>
+    <td>0.4</td>
+  </tr>
+  <tr>
+    <td>Optics</td>
+    <td>0.25</td>
+    <td>0.27</td>
+    <td>0.22</td>
+    <td>0.33</td>
+    <td>0.31</td>
+    <td>0.3</td>
+    <td>0.32</td>
+    <td>0.26</td>
+    <td>0.27</td>
+    <td>0.47</td>
+    <td>0.21</td>
+    <td>0.2</td>
+    <td>0.27</td>
+    <td>0.32</td>
+    <td>0.32</td>
+    <td>0.34</td>
+  </tr>
+</table>
+
 
