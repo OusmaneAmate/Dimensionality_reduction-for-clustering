@@ -8,7 +8,7 @@ Let's take the example of the Image segmentation dataset that we downloaded from
 
 <table>
   <tr>
-    <th>Algorithmes</th>
+    <th>Algorithms</th>
     <th>No Reduction</th>
     <th colspan="3">PCA</th>
     <th colspan="3">KernelPCA</th>
@@ -17,7 +17,7 @@ Let's take the example of the Image segmentation dataset that we downloaded from
     <th colspan="3">MDS</th>
   </tr>
   <tr>
-    <td>Nombre de features</td>
+    <td>Number of features</td>
     <td>19</td>
     <td>5</td>
     <td>6</td>
@@ -74,7 +74,7 @@ Let's take the example of the Image segmentation dataset that we downloaded from
     <td>0.36</td>
   </tr>
   <tr>
-    <td>Gaussian</td>
+    <td>Gaussian mixture</td>
     <td>0.43</td>
     <td>0.45</td>
     <td>0.4</td>
