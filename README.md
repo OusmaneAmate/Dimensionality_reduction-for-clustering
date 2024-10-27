@@ -12,7 +12,7 @@ Let's take the example of the Image segmentation dataset that we downloaded from
     <th>No Reduction</th>
     <th colspan="3">PCA</th>
     <th colspan="3">KernelPCA</th>
-    <th colspan="3">VAE Autoencoder</th>
+    <th colspan="3">Variational Autoencoder</th>
     <th colspan="3">Isomap</th>
     <th colspan="3">MDS</th>
   </tr>
