@@ -1,9 +1,52 @@
 # Dimensionality_reduction-for-clustering
-The goal of this project is to see if the use of dimension reduction techniques can improve clustering, in other words have better separated clusters. To do this, we carried out experiments on artificial data and on real data. These experiments first involve importing the data and then normalizing them using StandardScaler from the scikit-learn library in python, once the data is normalized we apply clustering to this data.
-To better interpret and compare the results we used four different clustering algorithms namely Kmeans, Agglomerative clustering, Gaussian mixture and Optics. First we do the clustering on the original data normalized with the different clustering algorithms mentioned above and then we evaluate the clustering results with the Adjusted Rand Index (ARI) metric which is a measure used to evaluate the similarity between two data groupings by comparing pairs of samples assigned to the same group or to different groups.
-The value of ARI score is between -1 and 1, with 0 indicating random labeling and 1 indicating identical clusters. After clustering on the original data, dimension reduction is applied with linear methods for dimension reduction such as PCA (Principal Component Analysis), nonlinear methods such as KernelPCA, Isomap, and MDS (Multidimensional Scaling) and the Autoencoder (Classic Autoencoder, Variational Autoencoder and Denoising Autoencoder). Regarding the target dimension, we have as values ​​r = K-1, r = 25% of D and r = 50% of D with r the target dimension, K the number of clusters and D the initial dimension of the data.
-Once the dimension is reduced through these different dimension reduction techniques, we perform the clustering again on the new data obtained using each method with the same algorithms as those used on the original data, then we calculate the ARI score on the clustering for each dimension reduction method. And finally we compare the ARI score of the clustering on the original data to those of the clustering on the data of each method to see which methods allow us to have a better clustering, that is to say an ARI score better than that of the data before the dimension reduction.
-Let's take the example of the Image segmentation dataset that we downloaded from UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/50/image+segmentation) containing instances randomly drawn from a database of 7 outdoor images, these images were manually segmented to create a classification for each pixel. The dataset contains 2310 observations, 19 features and 7 classes. The number of classes corresponds to the number of clusters (7 clusters), the number of features corresponds to the dimension (D=19) of the original data. So according to the experiment presented above, the target dimensions must be equal to 5, 6 and 10. The results of the experiment are grouped in the table below.
+
+# 1. Introduction
+- Project context and objective:
+  This project aims to investigate whether the use of dimensionality reduction techniques can improve clustering, i.e., achieve better-separated clusters.
+# 2. Methodology
+- Data used:
+  We conducted experiments on both artificial and real data.
+- Data normalization:
+  Before applying clustering, the data is normalized using StandardScaler from the scikit-learn library in Python.
+# 3. Clustering algorithms
+- Algorithms used
+  We used four different clustering algorithms:
+  - Kmeans
+  - Agglomerative Clustering
+  - Gaussian Mixture
+  - Optics
+- Evaluation of the results
+  Clustering results are evaluated using the Adjusted Rand Index (ARI) metric, which measures the similarity between two data groupings.
+# 4. Dimensionality reduction
+- Dimensionality reduction methods
+  Several dimensionality reduction methods were applied:
+  - Linear methods: PCA (Principal Component Analysis)
+  - Non-linear methods: KernelPCA, Isomap, MDS (Multidimensional Scaling)
+  - Autoencoders: Classic Autoencoder, Variational Autoencoder, Denoising Autoencoder
+- Choice of target dimensions
+  The chosen target dimensions for each method are:
+  - r = K-1 (where K is the number of clusters)
+  - r = 25% of D (where D is the initial dimension of the data)
+  - r = 50% of D
+# 5. Comparison of results
+- Clustering on original data
+  Clustering is first performed on the normalized original data.
+- Clustering after dimensionality reduction
+  Once the dimensionality is reduced, clustering is performed again on the data obtained from each dimensionality reduction method.
+- Comparison of ARI scores
+  The ARI scores obtained for each dimensionality reduction method are compared with those from the original data to determine which methods improve clustering, i.e., have 
+better ARI scores than the data before dimensionality reduction.
+
+# 6. Case study: Image segmentation
+- Dataset presentation
+  The "Image Segmentation" dataset, downloaded from the UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/50/image+segmentation), contains 2310 observations, 19 features, and 7 classes. Each class corresponds to a cluster, the original data has 19 dimensions (D=19).
+- Target dimensions for the experiment
+  According to the experiment, the target dimensions are 5, 6, and 10.
+- Results and interpretation
+  The experiment results on this dataset are summarized in the table below.
+
+
+
 
 
 <table>
