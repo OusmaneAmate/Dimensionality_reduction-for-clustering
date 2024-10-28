@@ -9,7 +9,7 @@
 - Data normalization:
   Before applying clustering, the data is normalized using StandardScaler from the scikit-learn library in Python.
 # 3. Clustering algorithms
-- Algorithms used
+- Algorithms used:
   We used four different clustering algorithms:
   - Kmeans
   - Agglomerative Clustering
@@ -29,20 +29,20 @@
   - r = 25% of D (where D is the initial dimension of the data)
   - r = 50% of D
 # 5. Comparison of results
-- Clustering on original data
+- Clustering on original data:
   Clustering is first performed on the normalized original data.
-- Clustering after dimensionality reduction
+- Clustering after dimensionality reduction:
   Once the dimensionality is reduced, clustering is performed again on the data obtained from each dimensionality reduction method.
-- Comparison of ARI scores
+- Comparison of ARI scores:
   The ARI scores obtained for each dimensionality reduction method are compared with those from the original data to determine which methods improve clustering, i.e., have 
 better ARI scores than the data before dimensionality reduction.
 
 # 6. Case study: Image segmentation
-- Dataset presentation
+- Dataset presentation:
   The "Image Segmentation" dataset, downloaded from the UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/50/image+segmentation), contains 2310 observations, 19 features, and 7 classes. Each class corresponds to a cluster, the original data has 19 dimensions (D=19).
-- Target dimensions for the experiment
+- Target dimensions for the experiment:
   According to the experiment, the target dimensions are 5, 6, and 10.
-- Results and interpretation
+- Results and interpretation:
   The experiment results on this dataset are summarized in the table below.
 
 
