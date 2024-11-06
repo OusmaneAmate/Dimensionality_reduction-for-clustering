@@ -62,21 +62,21 @@ better ARI scores than the data before dimensionality reduction.
   <tr>
     <td>Number of features</td>
     <td>19</td>
-    <td>5</td>
-    <td>6</td>
-    <td>10</td>
-    <td>5</td>
-    <td>6</td>
-    <td>10</td>
-    <td>5</td>
-    <td>6</td>
-    <td>10</td>
-    <td>5</td>
-    <td>6</td>
-    <td>10</td>
-    <td>5</td>
-    <td>6</td>
-    <td>10</td>
+    <td>25% of D</td>
+    <td>K-1</td>
+    <td>50% of D</td>
+    <td>25% of D</td>
+    <td>K-1</td>
+    <td>50% of D</td>
+    <td>25% of D</td>
+    <td>K-1</td>
+    <td>50% of D</td>
+    <td>25% of D</td>
+    <td>K-1</td>
+    <td>50% of D</td>
+    <td>25% of D</td>
+    <td>K-1</td>
+    <td>50% of D</td>
   </tr>
   <tr>
     <td>Kmeans</td>
@@ -156,7 +156,9 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
-# 7. Case study: Real data
+# 7. Summary tables:
+- Real data:
+  The table below contains each dimension reduction method's average ARI score values across all real datasets.
 
 <table>
   <tr>
@@ -204,7 +206,7 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.267</td>
     <td>0.227</td>
     <td>0.234</td>
-    <td></td>
+    <td>0.246</td>
   </tr>
   <tr>
     <td>Agglomerative</td>
@@ -223,7 +225,7 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.257</td>
     <td>0.234</td>
     <td>0.234</td>
-    <td></td>
+    <td>0.237</td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
@@ -242,7 +244,7 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.276</td>
     <td>0.194</td>
     <td>0.208</td>
-    <td></td>
+    <td>0.214</td>
   </tr>
   <tr>
     <td>Optics</td>
@@ -261,6 +263,9 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.057</td>
     <td>0.1</td>
     <td>0.064</td>
-    <td></td>
+    <td>0.034</td>
   </tr>
 </table>
+
+- Artificial data:
+  
