@@ -248,7 +248,7 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Optics</td>
-    <td>0.12</td>
+    <td>0.125</td>
     <td>0.139</td>
     <td>0.08</td>
     <td>0.098</td>
