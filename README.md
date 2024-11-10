@@ -255,13 +255,13 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.210</td>
     <td>0.095</td>
     <td>0.150</td>
-    <td>0.074</td>
+    <td>0.193</td>
     <td>0.080</td>
     <td>0.09</td>
-    <td>0.043</td>
+    <td>0.180</td>
     <td>0.065</td>
     <td>0.057</td>
-    <td>0.1</td>
+    <td>0.162</td>
     <td>0.064</td>
     <td>0.034</td>
   </tr>
