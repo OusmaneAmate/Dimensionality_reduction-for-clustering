@@ -303,19 +303,19 @@ better ARI scores than the data before dimensionality reduction.
     <td>Kmeans</td>
     <td>0.433</td>
     <td>0.347</td>
-    <td></td>
+    <td>0.390</td>
     <td></td>
     <td>0.504</td>
-    <td></td>
+    <td>0.511</td>
     <td></td>
     <td>0.374</td>
+    <td>0.531</td>
     <td></td>
-    <td></td>
-    <td>0.68</td>
-    <td></td>
+    <td>0.680</td>
+    <td>0.646</td>
     <td></td>
     <td>0.346</td>
-    <td></td>
+    <td>0.437</td>
     <td></td>
   </tr>
   <tr>
