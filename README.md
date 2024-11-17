@@ -322,19 +322,19 @@ better ARI scores than the data before dimensionality reduction.
     <td>Agglomerative</td>
     <td>0.587</td>
     <td>0.381</td>
-    <td></td>
+    <td>0.552</td>
     <td></td>
     <td>0.562</td>
-    <td></td>
+    <td>0.563</td>
     <td></td>
     <td>0.357</td>
-    <td></td>
+    <td>0.515</td>
     <td></td>
     <td>0.674</td>
-    <td></td>
+    <td>0.643</td>
     <td></td>
     <td>0.363</td>
-    <td></td>
+    <td>0.572</td>
     <td></td>
   </tr>
   <tr>
