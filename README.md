@@ -268,7 +268,7 @@ better ARI scores than the data before dimensionality reduction.
 </table>
 
 - Artificial data:
-  The table below contains each dimension reduction method's average ARI score values across all real datasets.
+  The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
   <tr>
