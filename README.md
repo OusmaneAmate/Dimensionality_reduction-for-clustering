@@ -340,19 +340,19 @@ better ARI scores than the data before dimensionality reduction.
   <tr>
     <td>Gaussian mixture</td>
     <td>0.423</td>
+    <td>0.306</td>
     <td></td>
     <td></td>
+    <td>0.501</td>
     <td></td>
     <td></td>
+    <td>0.345</td>
     <td></td>
     <td></td>
+    <td>0.65</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.303</td>
     <td></td>
     <td></td>
   </tr>
