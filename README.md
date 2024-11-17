@@ -361,18 +361,18 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.142</td>
     <td>0.07</td>
     <td>0.158</td>
-    <td></td>
+    <td>0.165</td>
     <td>0.128</td>
     <td>0.145</td>
-    <td></td>
+    <td>0.133</td>
     <td>0.082</td>
     <td>0.187</td>
-    <td></td>
+    <td>0.180</td>
     <td>0.251</td>
     <td>0.222</td>
-    <td></td>
+    <td>0.181</td>
     <td>0.048</td>
     <td>0.111</td>
-    <td></td>
+    <td>0.113</td>
   </tr>
 </table>
