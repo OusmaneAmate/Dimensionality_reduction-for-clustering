@@ -1978,6 +1978,113 @@ better ARI scores than the data before dimensionality reduction.
     <td>0</td>
   </tr>
 </table>
+- Wine
+<table>
+  <tr>
+    <th></th>
+    <th>No Reduction</th>
+    <th colspan="3">PCA</th>
+    <th colspan="3">KernelPCA</th>
+    <th colspan="3">Variational Autoencoder</th>
+    <th colspan="3">Isomap</th>
+    <th colspan="3">MDS</th>
+  </tr>
+  <tr>
+    <td>Number of features</td>
+    <td></td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+  </tr>
+  <tr>
+    <td>Kmeans</td>
+    <td>0.90</td>
+    <td>0.90</td>
+    <td>0.90</td>
+    <td>0.90</td>
+    <td>0.77</td>
+    <td>0.78</td>
+    <td>0.78</td>
+    <td>0.63</td>
+    <td>0.73</td>
+    <td>0.61</td>
+    <td>0.83</td>
+    <td>0.85</td>
+    <td>0.85</td>
+    <td>0.82</td>
+    <td>0.87</td>
+    <td>0.88</td>
+  </tr>
+  <tr>
+    <td>Agglomerative</td>
+    <td>0.78</td>
+    <td>0.66</td>
+    <td>0.77</td>
+    <td>0.79</td>
+    <td>0.93</td>
+    <td>0.90</td>
+    <td>0.85</td>
+    <td>0.41</td>
+    <td>0.40</td>
+    <td>0.39</td>
+    <td>0.72</td>
+    <td>0.58</td>
+    <td>0.66</td>
+    <td>0.83</td>
+    <td>0.73</td>
+    <td>0.79</td>
+  </tr>
+  <tr>
+    <td>Gaussian mixture</td>
+    <td>0.91</td>
+    <td>0.91</td>
+    <td>0.81</td>
+    <td>0.90</td>
+    <td>0.92</td>
+    <td>0.88</td>
+    <td>0.95</td>
+    <td>0.45</td>
+    <td>0.81</td>
+    <td>0.74</td>
+    <td>0.90</td>
+    <td>0.82</td>
+    <td>0.90</td>
+    <td>0.56</td>
+    <td>0.83</td>
+    <td>0.90</td>
+  </tr>
+  <tr>
+    <td>Optics</td>
+    <td>0</td>
+    <td>0.68</td>
+    <td>0.45</td>
+    <td>0.32</td>
+    <td>0.77</td>
+    <td>0.85</td>
+    <td>0.44</td>
+    <td>0.41</td>
+    <td>0.65</td>
+    <td>0.38</td>
+    <td>0.70</td>
+    <td>0.80</td>
+    <td>0.80</td>
+    <td>0.77</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
 
 - Artificial data:
   The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
