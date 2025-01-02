@@ -1941,41 +1941,41 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.11</td>
+    <td>0.09</td>
+    <td>0.13</td>
+    <td>0.10</td>
+    <td>0.10</td>
+    <td>0.10</td>
+    <td>0.14</td>
+    <td>0.10</td>
+    <td>0.07</td>
+    <td>0.08</td>
+    <td>0.07</td>
+    <td>0.05</td>
+    <td>0.05</td>
+    <td>0.09</td>
+    <td>0.10</td>
+    <td>0.07</td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.01</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
   </tr>
 </table>
 
