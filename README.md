@@ -45,10 +45,6 @@ better ARI scores than the data before dimensionality reduction.
 - Results and interpretation:
   The experiment results on this dataset are summarized in the table below.
 
-
-
-
-
 <table>
   <tr>
     <th></th>
@@ -191,79 +187,79 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Kmeans</td>
-    <td>0.276</td>
-    <td>0.241</td>
-    <td>0.253</td>
-    <td>0.240</td>
-    <td>0.133</td>
-    <td>0.142</td>
-    <td>0.164</td>
-    <td>0.219</td>
-    <td>0.196</td>
-    <td>0.213</td>
-    <td>0.253</td>
-    <td>0.246</td>
-    <td>0.267</td>
-    <td>0.227</td>
-    <td>0.234</td>
-    <td>0.246</td>
+    <td>0.224</td>
+    <td>0.226</td>
+    <td></td>
+    <td></td>
+    <td>0.156</td>
+    <td></td>
+    <td></td>
+    <td>0.192</td>
+    <td></td>
+    <td></td>
+    <td>0.233</td>
+    <td></td>
+    <td></td>
+    <td>0.214</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td>0.268</td>
-    <td>0.257</td>
-    <td>0.253</td>
-    <td>0.247</td>
-    <td>0.260</td>
-    <td>0.227</td>
-    <td>0.240</td>
-    <td>0.191</td>
-    <td>0.209</td>
-    <td>0.200</td>
-    <td>0.260</td>
-    <td>0.246</td>
-    <td>0.257</td>
-    <td>0.234</td>
-    <td>0.234</td>
-    <td>0.237</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td>0.265</td>
-    <td>0.231</td>
-    <td>0.222</td>
-    <td>0.217</td>
-    <td>0.237</td>
-    <td>0.235</td>
-    <td>0.264</td>
-    <td>0.222</td>
-    <td>0.236</td>
-    <td>0.225</td>
-    <td>0.267</td>
-    <td>0.266</td>
-    <td>0.276</td>
-    <td>0.194</td>
-    <td>0.208</td>
-    <td>0.214</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td>0.125</td>
-    <td>0.175</td>
-    <td>0.132</td>
-    <td>0.143</td>
-    <td>0.210</td>
-    <td>0.212</td>
-    <td>0.150</td>
-    <td>0.193</td>
-    <td>0.132</td>
-    <td>0.132</td>
-    <td>0.180</td>
-    <td>0.132</td>
-    <td>0.144</td>
-    <td>0.162</td>
-    <td>0.129</td>
-    <td>0.061</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 - Breast Tissue Dataset
