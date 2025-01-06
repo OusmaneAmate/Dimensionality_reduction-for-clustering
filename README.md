@@ -262,7 +262,7 @@ better ARI scores than the data before dimensionality reduction.
     <td></td>
   </tr>
 </table>
-- Breast Tissue Dataset
+- Breast Tissue 
 <table>
   <tr>
     <th></th>
@@ -369,7 +369,7 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.18</td>
   </tr>
 </table>
--Breast Wisconsin Dataset
+-Breast Wisconsin 
 <table>
   <tr>
     <th></th>
