@@ -247,19 +247,19 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.124</td>
     <td>0.157</td>
     <td>0.113</td>
-    <td></td>
+    <td>0.134</td>
     <td>0.188</td>
     <td>0.195</td>
-    <td></td>
+    <td>0.130</td>
     <td>0.171</td>
     <td>0.130</td>
-    <td></td>
+    <td>0.128</td>
     <td>0.127</td>
     <td>0.124</td>
-    <td></td>
+    <td>0.125</td>
     <td>0.145</td>
     <td>0.120</td>
-    <td></td>
+    <td>0.063</td>
   </tr>
 </table>
 - Breast Tissue 
