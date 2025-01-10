@@ -372,7 +372,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
--Breast Wisconsin 
+- Breast Wisconsin 
 <table>
   <tr>
     <th></th>
