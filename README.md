@@ -152,8 +152,7 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
-# 7. Summary tables:
-# 7.1. Artificial Data
+# 7. Artificial Data
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
@@ -263,7 +262,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 7.2.  Real Data:
+# 8.  Real Data:
 
 - Breast Tissue 
 <table>
@@ -372,6 +371,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.18</td>
   </tr>
 </table>
+
 -Breast Wisconsin 
 <table>
   <tr>
