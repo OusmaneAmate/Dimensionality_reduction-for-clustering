@@ -480,6 +480,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 - Ecoli
+
 <table>
   <tr>
     <th></th>
@@ -694,6 +695,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.10</td>
   </tr>
 </table>
+
 - Haberman
 <table>
   <tr>
@@ -801,6 +803,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.09</td>
   </tr>
 </table>
+
 - Ionosphere
 <table>
   <tr>
@@ -908,6 +911,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Iris
 <table>
   <tr>
@@ -1015,6 +1019,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.53</td>
   </tr>
 </table>
+
 - Musk
 <table>
   <tr>
@@ -1122,6 +1127,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Parkinsons
 <table>
   <tr>
@@ -1229,6 +1235,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.03</td>
   </tr>
 </table>
+
 - Segmentation
 <table>
   <tr>
@@ -1336,6 +1343,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.34</td>
   </tr>
 </table>
+
 - Sonar All
 <table>
   <tr>
@@ -1443,6 +1451,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Spectf
 <table>
   <tr>
@@ -1550,6 +1559,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>-0.067</td>
   </tr>
 </table>
+
 - Transfusion
 <table>
   <tr>
@@ -1657,6 +1667,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Vehicle
 <table>
   <tr>
@@ -1764,6 +1775,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Vertebral Column
 <table>
   <tr>
@@ -1871,6 +1883,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>-0.016</td>
   </tr>
 </table>
+
 - Vowel context
 <table>
   <tr>
@@ -1978,6 +1991,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Wine
 <table>
   <tr>
@@ -2085,6 +2099,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Wine quality red
 <table>
   <tr>
@@ -2192,6 +2207,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Yeast
 <table>
   <tr>
