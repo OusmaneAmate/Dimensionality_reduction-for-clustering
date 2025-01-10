@@ -153,8 +153,8 @@ better ARI scores than the data before dimensionality reduction.
 </table>
 
 # 7. Summary tables:
-- Real data:
-  The table below contains each dimension reduction method's average ARI score values across all real datasets.
+# 7.1. Artificial Data
+The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
   <tr>
@@ -187,81 +187,84 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Kmeans</td>
-    <td>0.224</td>
-    <td>0.226</td>
-    <td>0.238</td>
-    <td>0.233</td>
-    <td>0.156</td>
-    <td>0.136</td>
-    <td>0.152</td>
-    <td>0.192</td>
-    <td>0.203</td>
-    <td>0.206</td>
-    <td>0.233</td>
-    <td>0.226</td>
-    <td>0.244</td>
-    <td>0.214</td>
-    <td>0.228</td>
-    <td>0.231</td>
+    <td>0.433</td>
+    <td>0.347</td>
+    <td>0.390</td>
+    <td>0.425</td>
+    <td>0.504</td>
+    <td>0.511</td>
+    <td>0.375</td>
+    <td>0.374</td>
+    <td>0.531</td>
+    <td>0.586</td>
+    <td>0.680</td>
+    <td>0.646</td>
+    <td>0.672</td>
+    <td>0.346</td>
+    <td>0.437</td>
+    <td>0.471</td>
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td>0.230</td>
-    <td>0.232</td>
-    <td>0.236</td>
-    <td>0.227</td>
-    <td>0.254</td>
-    <td>0.220</td>
-    <td>0.233</td>
-    <td>0.197</td>
-    <td>0.192</td>
-    <td>0.182</td>
-    <td>0.242</td>
-    <td>0.225</td>
-    <td>0.241</td>
-    <td>0.223</td>
-    <td>0.223</td>
-    <td>0.223</td>
+    <td>0.587</td>
+    <td>0.381</td>
+    <td>0.552</td>
+    <td>0.624</td>
+    <td>0.562</td>
+    <td>0.563</td>
+    <td>0.620</td>
+    <td>0.357</td>
+    <td>0.515</td>
+    <td>0.563</td>
+    <td>0.674</td>
+    <td>0.643</td>
+    <td>0.684</td>
+    <td>0.363</td>
+    <td>0.572</td>
+    <td>0.625</td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td>0.252</td>
-    <td>0.228</td>
-    <td>0.209</td>
-    <td>0.230</td>
-    <td>0.249</td>
-    <td>0.222</td>
-    <td>0.246</td>
-    <td>0.188</td>
-    <td>0.220</td>
-    <td>0.208</td>
-    <td>0.246</td>
-    <td>0.240</td>
-    <td>0.256</td>
-    <td>0.184</td>
-    <td>0.195</td>
-    <td>0.109</td>
+    <td>0.423</td>
+    <td>0.306</td>
+    <td>0.360</td>
+    <td>0.406</td>
+    <td>0.501</td>
+    <td>0.443</td>
+    <td>0.443</td>
+    <td>0.345</td>
+    <td>0.523</td>
+    <td>0.330</td>
+    <td>0.65</td>
+    <td>0.620</td>
+    <td>0.641</td>
+    <td>0.303</td>
+    <td>0.375</td>
+    <td>0.395</td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td>0.124</td>
-    <td>0.157</td>
-    <td>0.113</td>
-    <td>0.134</td>
-    <td>0.188</td>
-    <td>0.195</td>
-    <td>0.130</td>
-    <td>0.171</td>
-    <td>0.130</td>
-    <td>0.128</td>
-    <td>0.127</td>
-    <td>0.124</td>
-    <td>0.125</td>
+    <td>0.190</td>
+    <td>0.102</td>
+    <td>0.180</td>
+    <td>0.178</td>
+    <td>0.190</td>
+    <td>0.155</td>
+    <td>0.187</td>
     <td>0.145</td>
-    <td>0.120</td>
-    <td>0.063</td>
+    <td>0.238</td>
+    <td>0.254</td>
+    <td>0.308</td>
+    <td>0.234</td>
+    <td>0.168</td>
+    <td>0.084</td>
+    <td>0.127</td>
+    <td>0.132</td>
   </tr>
 </table>
+
+# 7.2.  Real Data:
+
 - Breast Tissue 
 <table>
   <tr>
@@ -2296,8 +2299,7 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
-- Artificial data:
-  The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
+The table below contains each dimension reduction method's average ARI score values across all real datasets.
 
 <table>
   <tr>
@@ -2330,79 +2332,79 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Kmeans</td>
-    <td>0.433</td>
-    <td>0.347</td>
-    <td>0.390</td>
-    <td>0.425</td>
-    <td>0.504</td>
-    <td>0.511</td>
-    <td>0.375</td>
-    <td>0.374</td>
-    <td>0.531</td>
-    <td>0.586</td>
-    <td>0.680</td>
-    <td>0.646</td>
-    <td>0.672</td>
-    <td>0.346</td>
-    <td>0.437</td>
-    <td>0.471</td>
+    <td>0.224</td>
+    <td>0.226</td>
+    <td>0.238</td>
+    <td>0.233</td>
+    <td>0.156</td>
+    <td>0.136</td>
+    <td>0.152</td>
+    <td>0.192</td>
+    <td>0.203</td>
+    <td>0.206</td>
+    <td>0.233</td>
+    <td>0.226</td>
+    <td>0.244</td>
+    <td>0.214</td>
+    <td>0.228</td>
+    <td>0.231</td>
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td>0.587</td>
-    <td>0.381</td>
-    <td>0.552</td>
-    <td>0.624</td>
-    <td>0.562</td>
-    <td>0.563</td>
-    <td>0.620</td>
-    <td>0.357</td>
-    <td>0.515</td>
-    <td>0.563</td>
-    <td>0.674</td>
-    <td>0.643</td>
-    <td>0.684</td>
-    <td>0.363</td>
-    <td>0.572</td>
-    <td>0.625</td>
+    <td>0.230</td>
+    <td>0.232</td>
+    <td>0.236</td>
+    <td>0.227</td>
+    <td>0.254</td>
+    <td>0.220</td>
+    <td>0.233</td>
+    <td>0.197</td>
+    <td>0.192</td>
+    <td>0.182</td>
+    <td>0.242</td>
+    <td>0.225</td>
+    <td>0.241</td>
+    <td>0.223</td>
+    <td>0.223</td>
+    <td>0.223</td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td>0.423</td>
-    <td>0.306</td>
-    <td>0.360</td>
-    <td>0.406</td>
-    <td>0.501</td>
-    <td>0.443</td>
-    <td>0.443</td>
-    <td>0.345</td>
-    <td>0.523</td>
-    <td>0.330</td>
-    <td>0.65</td>
-    <td>0.620</td>
-    <td>0.641</td>
-    <td>0.303</td>
-    <td>0.375</td>
-    <td>0.395</td>
+    <td>0.252</td>
+    <td>0.228</td>
+    <td>0.209</td>
+    <td>0.230</td>
+    <td>0.249</td>
+    <td>0.222</td>
+    <td>0.246</td>
+    <td>0.188</td>
+    <td>0.220</td>
+    <td>0.208</td>
+    <td>0.246</td>
+    <td>0.240</td>
+    <td>0.256</td>
+    <td>0.184</td>
+    <td>0.195</td>
+    <td>0.109</td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td>0.190</td>
-    <td>0.102</td>
-    <td>0.180</td>
-    <td>0.178</td>
-    <td>0.190</td>
-    <td>0.155</td>
-    <td>0.187</td>
-    <td>0.145</td>
-    <td>0.238</td>
-    <td>0.254</td>
-    <td>0.308</td>
-    <td>0.234</td>
-    <td>0.168</td>
-    <td>0.084</td>
+    <td>0.124</td>
+    <td>0.157</td>
+    <td>0.113</td>
+    <td>0.134</td>
+    <td>0.188</td>
+    <td>0.195</td>
+    <td>0.130</td>
+    <td>0.171</td>
+    <td>0.130</td>
+    <td>0.128</td>
     <td>0.127</td>
-    <td>0.132</td>
+    <td>0.124</td>
+    <td>0.125</td>
+    <td>0.145</td>
+    <td>0.120</td>
+    <td>0.063</td>
   </tr>
 </table>
-
+  
