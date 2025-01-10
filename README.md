@@ -479,6 +479,7 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0</td>
   </tr>
 </table>
+
 - Ecoli
 
 <table>
