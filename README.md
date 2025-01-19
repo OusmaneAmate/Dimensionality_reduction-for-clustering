@@ -2516,19 +2516,19 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
   <tr>
     <td>Optics</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.953</td>
+    <td>0.1</td>
+    <td>0.953</td>
+    <td>0.953</td>
+    <td>0.246</td>
+    <td>0.933</td>
+    <td>0.95</td>
+    <td>0.28</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.05</td>
+    <td>0.906</td>
+    <td>0.856</td>
     <td></td>
     <td></td>
     <td></td>
