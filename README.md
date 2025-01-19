@@ -2478,19 +2478,19 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.41</td>
+    <td>0.17</td>
+    <td>0.41</td>
+    <td>0.41</td>
+    <td>0.39</td>
+    <td>0.523</td>
+    <td>0.526</td>
+    <td>0.213</td>
+    <td>0.45</td>
+    <td>0.356</td>
+    <td>0.256</td>
+    <td>0.71</td>
+    <td>0.336</td>
     <td></td>
     <td></td>
     <td></td>
