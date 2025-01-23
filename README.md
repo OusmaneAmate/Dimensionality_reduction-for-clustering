@@ -2426,7 +2426,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 9. Make moons
+# 9. Moons
 
 <table>
   <tr>
@@ -2529,6 +2529,115 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.05</td>
     <td>0.906</td>
     <td>0.856</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+# 10. Circles
+
+<table>
+  <tr>
+    <th></th>
+    <th>No Reduction</th>
+    <th colspan="3">PCA</th>
+    <th colspan="3">KernelPCA</th>
+    <th colspan="3">Variational Autoencoder</th>
+    <th colspan="3">Isomap</th>
+    <th colspan="3">MDS</th>
+  </tr>
+  <tr>
+    <td>Number of features</td>
+    <td></td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+  </tr>
+  <tr>
+    <td>Kmeans</td>
+    <td>-0.00004</td>
+    <td>-0.00004</td>
+    <td>-0.00004</td>
+    <td>-0.00004</td>
+    <td>-0.00003</td>
+    <td>0.021</td>
+    <td>0.024</td>
+    <td>0.0003</td>
+    <td>0.0055</td>
+    <td>0.010</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Agglomerative</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gaussian mixture</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Optics</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
