@@ -152,7 +152,7 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
-# 7. Artificial Data
+# 7. Artificial Data (c)
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
@@ -2426,7 +2426,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 9. Moons
+# 9. Moons (b)
 
 <table>
   <tr>
@@ -2535,7 +2535,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 10. Circles
+# 10. Circles (a)
 
 <table>
   <tr>
@@ -2643,3 +2643,4 @@ The table below contains each dimension reduction method's average ARI score val
     <td></td>
   </tr>
 </table>
+
