@@ -2606,19 +2606,19 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>0.007</td>
+    <td>0.015</td>
+    <td>0.00108</td>
+    <td>0.05</td>
+    <td>0.306</td>
+    <td>-0.00003</td>
+    <td>0.0005</td>
+    <td>0.00027</td>
     <td></td>
     <td></td>
     <td></td>
