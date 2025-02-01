@@ -152,7 +152,226 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
-# 7. Artificial Data (c)
+# 7. Circles (a)
+
+<table>
+  <tr>
+    <th></th>
+    <th>No Reduction</th>
+    <th colspan="3">PCA</th>
+    <th colspan="3">KernelPCA</th>
+    <th colspan="3">Variational Autoencoder</th>
+    <th colspan="3">Isomap</th>
+    <th colspan="3">MDS</th>
+  </tr>
+  <tr>
+    <td>Number of features</td>
+    <td></td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+  </tr>
+  <tr>
+    <td>Kmeans</td>
+    <td>-0.00004</td>
+    <td>-0.00004</td>
+    <td>-0.00004</td>
+    <td>-0.00004</td>
+    <td>-0.00003</td>
+    <td>0.021</td>
+    <td>0.024</td>
+    <td>0.0003</td>
+    <td>0.0055</td>
+    <td>0.010</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Agglomerative</td>
+    <td>0.00808</td>
+    <td>0.00077</td>
+    <td>0.0077</td>
+    <td>0.00808</td>
+    <td>0.00004</td>
+    <td>0.0071</td>
+    <td>0.0047</td>
+    <td>0.0009</td>
+    <td>0.106</td>
+    <td>0.087</td>
+    <td>0.0015</td>
+    <td>0.0111</td>
+    <td>0.0032</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gaussian mixture</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>-0.00003</td>
+    <td>0.007</td>
+    <td>0.015</td>
+    <td>0.00108</td>
+    <td>0.05</td>
+    <td>0.306</td>
+    <td>-0.00003</td>
+    <td>0.0005</td>
+    <td>0.00027</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Optics</td>
+    <td>0.64</td>
+    <td>0.16</td>
+    <td>0.64</td>
+    <td>0.64</td>
+    <td>0.003</td>
+    <td>0.32</td>
+    <td>0.633</td>
+    <td>-0.00003</td>
+    <td>0.31</td>
+    <td>0.296</td>
+    <td>0.176</td>
+    <td>0.313</td>
+    <td>0.32</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+# 8. Moons (b)
+
+<table>
+  <tr>
+    <th></th>
+    <th>No Reduction</th>
+    <th colspan="3">PCA</th>
+    <th colspan="3">KernelPCA</th>
+    <th colspan="3">Variational Autoencoder</th>
+    <th colspan="3">Isomap</th>
+    <th colspan="3">MDS</th>
+  </tr>
+  <tr>
+    <td>Number of features</td>
+    <td></td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+  </tr>
+  <tr>
+    <td>Kmeans</td>
+    <td>0.25</td>
+    <td>0.183</td>
+    <td>0.25</td>
+    <td>0.25</td>
+    <td>0.156</td>
+    <td>0.213</td>
+    <td>0.213</td>
+    <td>0.046</td>
+    <td>0.47</td>
+    <td>0.213</td>
+    <td>0.37</td>
+    <td>0.456</td>
+    <td>0.443</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Agglomerative</td>
+    <td>0.41</td>
+    <td>0.17</td>
+    <td>0.41</td>
+    <td>0.41</td>
+    <td>0.39</td>
+    <td>0.523</td>
+    <td>0.526</td>
+    <td>0.213</td>
+    <td>0.45</td>
+    <td>0.356</td>
+    <td>0.256</td>
+    <td>0.71</td>
+    <td>0.336</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gaussian mixture</td>
+    <td>0.496</td>
+    <td>0.183</td>
+    <td>0.496</td>
+    <td>0.496</td>
+    <td>0.39</td>
+    <td>0.493</td>
+    <td>0.333</td>
+    <td>0.066</td>
+    <td>0.39</td>
+    <td>0.383</td>
+    <td>0.356</td>
+    <td>0.506</td>
+    <td>0.473</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Optics</td>
+    <td>0.953</td>
+    <td>0.1</td>
+    <td>0.953</td>
+    <td>0.953</td>
+    <td>0.246</td>
+    <td>0.933</td>
+    <td>0.95</td>
+    <td>0.28</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.05</td>
+    <td>0.906</td>
+    <td>0.856</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+# 9. Artificial Data (c)
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
@@ -2425,222 +2644,3 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.063</td>
   </tr>
 </table>
-
-# 9. Moons (b)
-
-<table>
-  <tr>
-    <th></th>
-    <th>No Reduction</th>
-    <th colspan="3">PCA</th>
-    <th colspan="3">KernelPCA</th>
-    <th colspan="3">Variational Autoencoder</th>
-    <th colspan="3">Isomap</th>
-    <th colspan="3">MDS</th>
-  </tr>
-  <tr>
-    <td>Number of features</td>
-    <td></td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-  </tr>
-  <tr>
-    <td>Kmeans</td>
-    <td>0.25</td>
-    <td>0.183</td>
-    <td>0.25</td>
-    <td>0.25</td>
-    <td>0.156</td>
-    <td>0.213</td>
-    <td>0.213</td>
-    <td>0.046</td>
-    <td>0.47</td>
-    <td>0.213</td>
-    <td>0.37</td>
-    <td>0.456</td>
-    <td>0.443</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Agglomerative</td>
-    <td>0.41</td>
-    <td>0.17</td>
-    <td>0.41</td>
-    <td>0.41</td>
-    <td>0.39</td>
-    <td>0.523</td>
-    <td>0.526</td>
-    <td>0.213</td>
-    <td>0.45</td>
-    <td>0.356</td>
-    <td>0.256</td>
-    <td>0.71</td>
-    <td>0.336</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Gaussian mixture</td>
-    <td>0.496</td>
-    <td>0.183</td>
-    <td>0.496</td>
-    <td>0.496</td>
-    <td>0.39</td>
-    <td>0.493</td>
-    <td>0.333</td>
-    <td>0.066</td>
-    <td>0.39</td>
-    <td>0.383</td>
-    <td>0.356</td>
-    <td>0.506</td>
-    <td>0.473</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Optics</td>
-    <td>0.953</td>
-    <td>0.1</td>
-    <td>0.953</td>
-    <td>0.953</td>
-    <td>0.246</td>
-    <td>0.933</td>
-    <td>0.95</td>
-    <td>0.28</td>
-    <td>0.95</td>
-    <td>0.95</td>
-    <td>0.05</td>
-    <td>0.906</td>
-    <td>0.856</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-# 10. Circles (a)
-
-<table>
-  <tr>
-    <th></th>
-    <th>No Reduction</th>
-    <th colspan="3">PCA</th>
-    <th colspan="3">KernelPCA</th>
-    <th colspan="3">Variational Autoencoder</th>
-    <th colspan="3">Isomap</th>
-    <th colspan="3">MDS</th>
-  </tr>
-  <tr>
-    <td>Number of features</td>
-    <td></td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-  </tr>
-  <tr>
-    <td>Kmeans</td>
-    <td>-0.00004</td>
-    <td>-0.00004</td>
-    <td>-0.00004</td>
-    <td>-0.00004</td>
-    <td>-0.00003</td>
-    <td>0.021</td>
-    <td>0.024</td>
-    <td>0.0003</td>
-    <td>0.0055</td>
-    <td>0.010</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Agglomerative</td>
-    <td>0.00808</td>
-    <td>0.00077</td>
-    <td>0.0077</td>
-    <td>0.00808</td>
-    <td>0.00004</td>
-    <td>0.0071</td>
-    <td>0.0047</td>
-    <td>0.0009</td>
-    <td>0.106</td>
-    <td>0.087</td>
-    <td>0.0015</td>
-    <td>0.0111</td>
-    <td>0.0032</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Gaussian mixture</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>0.007</td>
-    <td>0.015</td>
-    <td>0.00108</td>
-    <td>0.05</td>
-    <td>0.306</td>
-    <td>-0.00003</td>
-    <td>0.0005</td>
-    <td>0.00027</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Optics</td>
-    <td>0.64</td>
-    <td>0.16</td>
-    <td>0.64</td>
-    <td>0.64</td>
-    <td>0.003</td>
-    <td>0.32</td>
-    <td>0.633</td>
-    <td>-0.00003</td>
-    <td>0.31</td>
-    <td>0.296</td>
-    <td>0.176</td>
-    <td>0.313</td>
-    <td>0.32</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
