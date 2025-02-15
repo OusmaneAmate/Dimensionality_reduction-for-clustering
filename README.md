@@ -552,41 +552,41 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.432</td>
+    <td>0.302</td>
+    <td>0.415</td>
+    <td>0.435</td>
+    <td>0.517</td>
+    <td>0.575</td>
+    <td>0.595</td>
+    <td>0.235</td>
+    <td>0.337</td>
+    <td>0.39</td>
+    <td>0.307</td>
+    <td>0.487</td>
+    <td>0.54</td>
+    <td>0.155</td>
+    <td>0.407</td>
+    <td>0.44</td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.262</td>
+    <td>0.125</td>
+    <td>0.245</td>
+    <td>0.415</td>
+    <td>0.267</td>
+    <td>0.23</td>
+    <td>0.177</td>
+    <td>0.102</td>
+    <td>0.282</td>
+    <td>0.18</td>
+    <td>0.142</td>
+    <td>0.322</td>
+    <td>0.302</td>
+    <td>0.21</td>
+    <td>0.362</td>
+    <td>0.515</td>
   </tr>
 </table>
 
