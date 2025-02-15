@@ -517,73 +517,73 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.31</td>
     <td>0.20</td>
     <td>0.31</td>
-    <td>0.30</td>
-    <td>0.0325</td>
-    <td>0.107</td>
+    <td>0.302</td>
+    <td>0.062</td>
+    <td>0.11</td>
     <td>0.115</td>
-    <td>0.262</td>
+    <td>0.275</td>
+    <td>0.272</td>
+    <td>0.3</td>
     <td>0.23</td>
-    <td>0.29</td>
-    <td>0.23</td>
-    <td>0.315</td>
-    <td>0.315</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.317</td>
+    <td>0.312</td>
+    <td>0.152</td>
+    <td>0.27</td>
+    <td>0.302</td>
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td>0.407</td>
-    <td>0.237</td>
-    <td>0.35</td>
-    <td>0.32</td>
-    <td>0.517</td>
-    <td>0.535</td>
-    <td>0.562</td>
-    <td>0.2</td>
-    <td>0.277</td>
-    <td>0.248</td>
-    <td>0.22</td>
-    <td>0.205</td>
-    <td>0.25</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td>0.417</td>
-    <td>0.295</td>
-    <td>0.412</td>
-    <td>0.445</td>
-    <td>0.525</td>
-    <td>0.575</td>
-    <td>0.557</td>
-    <td>0.21</td>
-    <td>0.412</td>
-    <td>0.305</td>
-    <td>0.305</td>
-    <td>0.492</td>
-    <td>0.535</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td>0.262</td>
-    <td>0.128</td>
-    <td>0.245</td>
-    <td>0.415</td>
-    <td>0.267</td>
-    <td>0.23</td>
-    <td>0.177</td>
-    <td>0.22</td>
-    <td>0.292</td>
-    <td>0.302</td>
-    <td>0.142</td>
-    <td>0.322</td>
-    <td>0.302</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
