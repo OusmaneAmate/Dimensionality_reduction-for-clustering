@@ -185,76 +185,76 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Kmeans</td>
-    <td>-0.00004</td>
-    <td>-0.00004</td>
-    <td>-0.00004</td>
-    <td>-0.00004</td>
-    <td>-0.00003</td>
-    <td>0.021</td>
-    <td>0.024</td>
-    <td>0.0003</td>
-    <td>0.0055</td>
-    <td>0.010</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.230</td>
+    <td>0.131</td>
+    <td>0.230</td>
+    <td>0.230</td>
+    <td>0.125</td>
+    <td>0.211</td>
+    <td>0.236</td>
+    <td>0.013</td>
+    <td>0.233</td>
+    <td>0.203</td>
+    <td>0.105</td>
+    <td>0.173</td>
+    <td>0.17</td>
+    <td>0.203</td>
+    <td>0.168</td>
+    <td>0.168</td>
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td>0.00808</td>
-    <td>0.00077</td>
-    <td>0.0077</td>
-    <td>0.00808</td>
-    <td>0.00004</td>
-    <td>0.0071</td>
-    <td>0.0047</td>
-    <td>0.0009</td>
-    <td>0.106</td>
-    <td>0.087</td>
-    <td>0.0015</td>
-    <td>0.0111</td>
-    <td>0.0032</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.058</td>
+    <td>0.045</td>
+    <td>0.058</td>
+    <td>0.073</td>
+    <td>0.161</td>
+    <td>0.1</td>
+    <td>0.125</td>
+    <td>0.012</td>
+    <td>0.095</td>
+    <td>0.122</td>
+    <td>0.107</td>
+    <td>0.127</td>
+    <td>0.136</td>
+    <td>0.131</td>
+    <td>0.093</td>
+    <td>0.038</td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>-0.00003</td>
-    <td>0.007</td>
-    <td>0.015</td>
-    <td>0.00108</td>
-    <td>0.05</td>
-    <td>0.306</td>
-    <td>-0.00003</td>
-    <td>0.0005</td>
-    <td>0.00027</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Optics</td>
-    <td>0.64</td>
-    <td>0.16</td>
-    <td>0.70</td>
-    <td>0.72</td>
-    <td>0.003</td>
-    <td>0.32</td>
-    <td>0.733</td>
-    <td>-0.00003</td>
-    <td>0.31</td>
-    <td>0.296</td>
-    <td>0.176</td>
-    <td>0.313</td>
-    <td>0.32</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
