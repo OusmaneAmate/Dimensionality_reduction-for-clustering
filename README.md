@@ -351,22 +351,22 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Optics</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.66</td>
+    <td>0.413</td>
+    <td>0.66</td>
+    <td>0.66</td>
+    <td>0.325</td>
+    <td>0.698</td>
+    <td>0.766</td>
+    <td>0.333</td>
+    <td>0.478</td>
+    <td>0.52</td>
+    <td>0.238</td>
+    <td>0.398</td>
+    <td>0.403</td>
+    <td>0.29</td>
+    <td>0.314</td>
+    <td>0.25</td>
   </tr>
 </table>
 
