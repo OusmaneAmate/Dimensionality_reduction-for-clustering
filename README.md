@@ -332,22 +332,22 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.608</td>
+    <td>0.451</td>
+    <td>0.608</td>
+    <td>0.608</td>
+    <td>0.581</td>
+    <td>0.626</td>
+    <td>0.553</td>
+    <td>0.378</td>
+    <td>0.561</td>
+    <td>0.526</td>
+    <td>0.64</td>
+    <td>0.608</td>
+    <td>0.683</td>
+    <td>0.506</td>
+    <td>0.68</td>
+    <td>0.691</td>
   </tr>
   <tr>
     <td>Optics</td>
