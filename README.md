@@ -313,22 +313,22 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
   <tr>
     <td>Agglomerative</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.596</td>
+    <td>0.47</td>
+    <td>0.59</td>
+    <td>0.59</td>
+    <td>0.583</td>
+    <td>0.623</td>
+    <td>0.658</td>
+    <td>0.45</td>
+    <td>0.453</td>
+    <td>0.496</td>
+    <td>0.495</td>
+    <td>0.75</td>
+    <td>0.558</td>
+    <td>0.526</td>
+    <td>0.585</td>
+    <td>0.57</td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
