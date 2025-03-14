@@ -490,6 +490,11 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
+![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RodriguezData.png)
+![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RodriguezData.png)
+![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RodriguezData.png)
+![Boxplot Optics Clustering](Images/Boxplot_Optics_RodriguezData.png)
+
 # 10. Repliclust (d)
 
 <table>
