@@ -375,6 +375,10 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
+![Boxplot K-means Clustering](Images/Boxplot_Kmeans_MoonsData.png)
+![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_MoonsData.png)
+![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_MoonsData.png)
+![Boxplot Optics Clustering](Images/Boxplot_Optics_MoonsData.png)
 
 # 9. Artificial Data (c)
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
