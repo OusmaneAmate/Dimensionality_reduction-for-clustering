@@ -261,6 +261,11 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
+![Boxplot K-means Clustering](Images/Boxplot_Kmeans_CirclesData.png)
+![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_CirclesData.png)
+![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_CirclesData.png)
+![Boxplot Optics Clustering](Images/Boxplot_Optics_CirclesData.png)
+
 # 8. Moons (b)
 
 <table>
