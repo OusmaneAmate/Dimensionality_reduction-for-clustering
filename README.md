@@ -37,122 +37,7 @@
   The ARI scores obtained for each dimensionality reduction method are compared with those from the original data to determine which methods improve clustering, i.e., have 
 better ARI scores than the data before dimensionality reduction.
 
-# 6. Case study: Image segmentation
-- Dataset presentation:
-  The "Image Segmentation" dataset, downloaded from the UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/50/image+segmentation), contains 2310 observations, 19 features, and 7 classes. Each class corresponds to a cluster, the original data has 19 dimensions (D=19).
-- Target dimensions for the experiment:
-  According to the experiment, the target dimensions are 5, 6, and 10.
-- Results and interpretation:
-  The experiment results on this dataset are summarized in the table below.
-
-<table>
-  <tr>
-    <th></th>
-    <th>No Reduction</th>
-    <th colspan="3">PCA</th>
-    <th colspan="3">KernelPCA</th>
-    <th colspan="3">Variational Autoencoder</th>
-    <th colspan="3">Isomap</th>
-    <th colspan="3">MDS</th>
-  </tr>
-  <tr>
-    <td>Number of features</td>
-    <td>19</td>
-    <td>25% of D</td>
-    <td>K-1</td>
-    <td>50% of D</td>
-    <td>25% of D</td>
-    <td>K-1</td>
-    <td>50% of D</td>
-    <td>25% of D</td>
-    <td>K-1</td>
-    <td>50% of D</td>
-    <td>25% of D</td>
-    <td>K-1</td>
-    <td>50% of D</td>
-    <td>25% of D</td>
-    <td>K-1</td>
-    <td>50% of D</td>
-  </tr>
-  <tr>
-    <td>Kmeans</td>
-    <td>0.47</td>
-    <td>0.48</td>
-    <td>0.43</td>
-    <td>0.47</td>
-    <td>0.24</td>
-    <td>0.47</td>
-    <td>0.45</td>
-    <td>0.44</td>
-    <td>0.47</td>
-    <td>0.5</td>
-    <td>0.45</td>
-    <td>0.44</td>
-    <td>0.46</td>
-    <td>0.46</td>
-    <td>0.47</td>
-    <td>0.47</td>
-  </tr>
-  <tr>
-    <td>Agglomerative</td>
-    <td>0.35</td>
-    <td>0.45</td>
-    <td>0.45</td>
-    <td>0.35</td>
-    <td>0.4</td>
-    <td>0.43</td>
-    <td>0.44</td>
-    <td>0.47</td>
-    <td>0.44</td>
-    <td>0.47</td>
-    <td>0.34</td>
-    <td>0.37</td>
-    <td>0.39</td>
-    <td>0.45</td>
-    <td>0.43</td>
-    <td>0.36</td>
-  </tr>
-  <tr>
-    <td>Gaussian mixture</td>
-    <td>0.43</td>
-    <td>0.45</td>
-    <td>0.4</td>
-    <td>0.47</td>
-    <td>0.38</td>
-    <td>0.41</td>
-    <td>0.49</td>
-    <td>0.42</td>
-    <td>0.45</td>
-    <td>0.46</td>
-    <td>0.53</td>
-    <td>0.4</td>
-    <td>0.53</td>
-    <td>0.44</td>
-    <td>0.51</td>
-    <td>0.4</td>
-  </tr>
-  <tr>
-    <td>Optics</td>
-    <td>0.25</td>
-    <td>0.27</td>
-    <td>0.22</td>
-    <td>0.33</td>
-    <td>0.31</td>
-    <td>0.3</td>
-    <td>0.32</td>
-    <td>0.26</td>
-    <td>0.27</td>
-    <td>0.47</td>
-    <td>0.21</td>
-    <td>0.2</td>
-    <td>0.27</td>
-    <td>0.32</td>
-    <td>0.32</td>
-    <td>0.34</td>
-  </tr>
-</table>
-
-# 7. Circles (a)
+# 6. Circles (a)
 
 <table>
   <tr>
@@ -266,7 +151,7 @@ better ARI scores than the data before dimensionality reduction.
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_CirclesData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_CirclesData.png)
 
-# 8. Moons (b)
+# 7. Moons (b)
 
 <table>
   <tr>
@@ -380,7 +265,7 @@ better ARI scores than the data before dimensionality reduction.
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_MoonsData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_MoonsData.png)
 
-# 9. Artificial Data (c)
+# 8. Artificial Data (c)
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
@@ -495,7 +380,7 @@ The table below contains each dimension reduction method's average ARI score val
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RodriguezData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RodriguezData.png)
 
-# 10. Repliclust (d)
+# 9. Repliclust (d)
 
 <table>
   <tr>
@@ -609,7 +494,7 @@ The table below contains each dimension reduction method's average ARI score val
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RepliclustData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RepliclustData.png)
 
-# 11.  Real Data:
+# 10.  Real Data:
 
 - Breast Tissue 
 <table>
