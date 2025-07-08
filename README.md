@@ -265,7 +265,118 @@ better ARI scores than the data before dimensionality reduction.
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_MoonsData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_MoonsData.png)
 
-# 8. Artificial Data (c)
+# 8. Moons (b) New
+
+<table>
+  <tr>
+    <th></th>
+    <th>No Reduction</th>
+    <th colspan="3">PCA</th>
+    <th colspan="3">KernelPCA</th>
+    <th colspan="3">Variational Autoencoder</th>
+    <th colspan="3">Isomap</th>
+    <th colspan="3">MDS</th>
+  </tr>
+  <tr>
+    <td>Number of features</td>
+    <td></td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+    <td>K-1</td>
+    <td>25% of D</td>
+    <td>50% of D</td>
+  </tr>
+  <tr>
+    <td>Kmeans</td>
+    <td>0.540</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Agglomerative</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gaussian mixture</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Optics</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+
+# 9. Artificial Data (c)
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
@@ -380,7 +491,7 @@ The table below contains each dimension reduction method's average ARI score val
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RodriguezData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RodriguezData.png)
 
-# 9. Repliclust (d)
+# 10. Repliclust (d)
 
 <table>
   <tr>
@@ -494,7 +605,7 @@ The table below contains each dimension reduction method's average ARI score val
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RepliclustData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RepliclustData.png)
 
-# 10.  Real Data:
+# 11.  Real Data:
 
 - Breast Tissue 
 <table>
