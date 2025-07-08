@@ -300,7 +300,7 @@ better ARI scores than the data before dimensionality reduction.
     <td>Kmeans</td>
     <td>0.540</td>
     <td>0.473</td>
-    <td>0/510</td>
+    <td>0.510</td>
     <td>0.510</td>
     <td></td>
     <td></td>
@@ -318,9 +318,9 @@ better ARI scores than the data before dimensionality reduction.
   <tr>
     <td>Agglomerative</td>
     <td>0.575</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.453</td>
+    <td>0.618</td>
+    <td>0.471</td>
     <td></td>
     <td></td>
     <td></td>
@@ -337,9 +337,9 @@ better ARI scores than the data before dimensionality reduction.
   <tr>
     <td>Gaussian mixture</td>
     <td>0.583</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.405</td>
+    <td>0.610</td>
+    <td>0.608</td>
     <td></td>
     <td></td>
     <td></td>
@@ -356,9 +356,9 @@ better ARI scores than the data before dimensionality reduction.
   <tr>
     <td>Optics</td>
     <td>0.298</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.155</td>
+    <td>0.575</td>
+    <td>0.368</td>
     <td></td>
     <td></td>
     <td></td>
