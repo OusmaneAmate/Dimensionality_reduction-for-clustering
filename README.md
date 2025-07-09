@@ -607,7 +607,7 @@ The table below contains each dimension reduction method's average ARI score val
 
 
 
-# 10. Repliclust (d) New
+# 11. Repliclust (d) New
 
 <table>
   <tr>
