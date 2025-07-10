@@ -644,9 +644,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.931</td>
     <td>0.883</td>
     <td>0.935</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.983</td>
+    <td>0.956</td>
+    <td>0.986</td>
     <td></td>
     <td></td>
     <td></td>
@@ -663,9 +663,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.858</td>
     <td>0.481</td>
     <td>0.500</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.901</td>
+    <td>0.905</td>
+    <td>0.956</td>
     <td></td>
     <td></td>
     <td></td>
@@ -682,9 +682,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.968</td>
     <td>0.900</td>
     <td>0.948</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.980</td>
+    <td>0.955</td>
+    <td>0.983</td>
     <td></td>
     <td></td>
     <td></td>
@@ -701,9 +701,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.466</td>
     <td>0.424</td>
     <td>0.451</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.625</td>
+    <td>0.443</td>
+    <td>0.585</td>
     <td></td>
     <td></td>
     <td></td>
