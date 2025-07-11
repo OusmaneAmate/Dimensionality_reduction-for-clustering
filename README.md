@@ -653,9 +653,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.416</td>
     <td>0.402</td>
     <td>0.420</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.396</td>
+    <td>0.841</td>
+    <td>0.903</td>
   </tr>
   <tr>
     <td>Agglomerative</td>
@@ -672,9 +672,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.333</td>
     <td>0.370</td>
     <td>0.410</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.375</td>
+    <td>0.496</td>
+    <td>0.414</td>
   </tr>
   <tr>
     <td>Gaussian mixture</td>
@@ -691,9 +691,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.426</td>
     <td>0.455</td>
     <td>0.535</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.433</td>
+    <td>0.901</td>
+    <td>0.913</td>
   </tr>
   <tr>
     <td>Optics</td>
@@ -710,9 +710,9 @@ The table below contains each dimension reduction method's average ARI score val
     <td>0.320</td>
     <td>0.300</td>
     <td>0.300</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.413</td>
+    <td>0.452</td>
+    <td>0.456</td>
   </tr>
 </table>
 
