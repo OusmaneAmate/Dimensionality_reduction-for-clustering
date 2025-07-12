@@ -641,9 +641,9 @@ The table below contains each dimension reduction method's average ARI score val
   <tr>
     <td>Kmeans</td>
     <td>0.674</td>
-    <td>0.931</td>
-    <td>0.883</td>
-    <td>0.935</td>
+    <td>0.831</td>
+    <td>0.680</td>
+    <td>0.790</td>
     <td>0.983</td>
     <td>0.956</td>
     <td>0.986</td>
@@ -678,7 +678,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
   <tr>
     <td>Gaussian mixture</td>
-    <td>0.820</td>
+    <td>0.720</td>
     <td>0.968</td>
     <td>0.900</td>
     <td>0.948</td>
