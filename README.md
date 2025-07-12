@@ -640,7 +640,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
   <tr>
     <td>Kmeans</td>
-    <td>0.913</td>
+    <td>0.674</td>
     <td>0.931</td>
     <td>0.883</td>
     <td>0.935</td>
