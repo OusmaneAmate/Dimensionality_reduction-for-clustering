@@ -195,9 +195,9 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.150</td>
     <td>0.173</td>
     <td>0.215</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.410</td>
+    <td>0.420</td>
+    <td>0.415</td>
     <td></td>
     <td></td>
     <td></td>
@@ -214,9 +214,9 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.153</td>
     <td>0.220</td>
     <td>0.216</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.376</td>
+    <td>0.571</td>
+    <td>0.483</td>
     <td></td>
     <td></td>
     <td></td>
@@ -233,9 +233,9 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.020</td>
     <td>0.151</td>
     <td>0.056</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.763</td>
+    <td>0.690</td>
+    <td>0.518</td>
     <td></td>
     <td></td>
     <td></td>
@@ -252,9 +252,9 @@ better ARI scores than the data before dimensionality reduction.
     <td>0.096</td>
     <td>0.538</td>
     <td>0.466</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.353</td>
+    <td>0.545</td>
+    <td>0.413</td>
     <td></td>
     <td></td>
     <td></td>
