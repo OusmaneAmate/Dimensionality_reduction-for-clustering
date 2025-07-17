@@ -37,7 +37,7 @@
   The ARI scores obtained for each dimensionality reduction method are compared with those from the original data to determine which methods improve clustering, i.e., have 
 better ARI scores than the data before dimensionality reduction.
 
-# 6. Circles (a)
+<!--# 6. Circles (a)
 
 <table>
   <tr>
@@ -150,7 +150,7 @@ better ARI scores than the data before dimensionality reduction.
 ![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_CirclesData.png)
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_CirclesData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_CirclesData.png)
-
+-->
 
 # 7. Circles (a) New
 
