@@ -152,7 +152,7 @@ better ARI scores than the data before dimensionality reduction.
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_CirclesData.png)
 -->
 
-# 7. Circles (a) New
+# 6. Circles (a)
 
 <table>
   <tr>
@@ -261,7 +261,7 @@ better ARI scores than the data before dimensionality reduction.
   </tr>
 </table>
 
-# 8. Moons (b)
+<!--# 7. Moons (b)
 
 <table>
   <tr>
@@ -374,8 +374,8 @@ better ARI scores than the data before dimensionality reduction.
 ![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_MoonsData.png)
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_MoonsData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_MoonsData.png)
-
-# 9. Moons (b) New
+-->
+# 7. Moons (b)
 
 <table>
   <tr>
@@ -486,7 +486,7 @@ better ARI scores than the data before dimensionality reduction.
 
 
 
-# 10. Artificial Data (c)
+# 8. Artificial Data (c)
 The table below contains each dimension reduction method's average ARI score values across all artificial datasets.
 
 <table>
@@ -601,7 +601,7 @@ The table below contains each dimension reduction method's average ARI score val
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RodriguezData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RodriguezData.png)
 
-# 11. Repliclust (d)
+<!--# 11. Repliclust (d)
 
 <table>
   <tr>
@@ -715,9 +715,9 @@ The table below contains each dimension reduction method's average ARI score val
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RepliclustData.png)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RepliclustData.png)
 
+-->
 
-
-# 12. Repliclust (d) New
+# 9. Repliclust (d) 
 
 <table>
   <tr>
@@ -826,7 +826,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 13.  Real Data:
+# 10.  Real Data:
 
 - Breast Tissue 
 <table>
