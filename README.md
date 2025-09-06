@@ -827,10 +827,10 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-![Boxplot K-means Clustering](Images/Boxplots_kmeans_artificial.png)
-![Boxplot Agglomerative Clustering](Images/Boxplots_agglo_artificial.png)
-![Boxplot Gaussian Clustering](Images/Boxplots_gaussian_artificial.png)
-![Boxplot Optics Clustering](Images/Boxplots_optics_artificial.png)
+![Boxplot K-means Clustering](Images/Boxplots_kmeans_artificial.pdf)
+![Boxplot Agglomerative Clustering](Images/Boxplots_agglo_artificial.pdf)
+![Boxplot Gaussian Clustering](Images/Boxplots_gaussian_artificial.pdf)
+![Boxplot Optics Clustering](Images/Boxplots_optics_artificial.pdf)
 
 # 10.  Real Data:
 
@@ -2996,9 +2996,9 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData.png)
-![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData.png)
-![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData.png)
-![Boxplot Optics Clustering](Images/Boxplot_Optics_RealData.png)
+![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData.pdf)
+![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData.pdf)
+![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData.pdf)
+![Boxplot Optics Clustering](Images/Boxplot_Optics_RealData.pdf)
 
 
