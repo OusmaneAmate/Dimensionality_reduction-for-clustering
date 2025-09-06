@@ -2985,8 +2985,100 @@ The table below contains each dimension reduction method's average ARI score val
 # 13. ARI scores for Gaussian mixture on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 
+<table>
+  
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>No Reduction</th>
+      <th colspan="3">PCA</th>
+      <th colspan="3">Kernel PCA</th>
+      <th colspan="3">VAE</th>
+      <th colspan="3">Isomap</th>
+      <th colspan="3">MDS</th>
+    </tr>
+    <tr>
+      <th>Number of features</th>
+      <th></th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Breast tissue</td><td>0.34</td><td>0.31</td><td>0.29</td><td>0.36</td><td>0.36</td><td>0.36</td><td>0.31</td><td>0.32</td><td>0.32</td><td>0.27</td><td>0.29</td><td>0.23</td><td>0.28</td><td>0.31</td><td>0.27</td><td>0.30</td></tr>
+    <tr><td>Breast Wisconsin</td><td>0.77</td><td>0.69</td><td>0.47</td><td>0.48</td><td>0.65</td><td>0.67</td><td>0.71</td><td>0.33</td><td>0.75</td><td>0.64</td><td>0.76</td><td>0.81</td><td>0.59</td><td>0.16</td><td>0.33</td><td>0.13</td></tr>
+    <tr><td>Ecoli</td><td>0.65</td><td>0.65</td><td>0.39</td><td>0.47</td><td>0.65</td><td>0.33</td><td>0.44</td><td>0.65</td><td>0.47</td><td>0.43</td><td>0.65</td><td>0.45</td><td>0.52</td><td>0.65</td><td>0.49</td><td>0.64</td></tr>
+    <tr><td>Glass</td><td>0.18</td><td>0.19</td><td>0.26</td><td>0.24</td><td>0.21</td><td>0.18</td><td>0.17</td><td>0.16</td><td>0.20</td><td>0.18</td><td>0.17</td><td>0.17</td><td>0.16</td><td>0.22</td><td>0.20</td><td>0.24</td></tr>
+    <tr><td>Haberman</td><td>0.10</td><td>0.00</td><td>0.00</td><td>0.13</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>-0.01</td><td>0.03</td><td>0.03</td><td>0.12</td><td>0.01</td><td>0.01</td><td>0.09</td></tr>
+    <tr><td>Ionosphere</td><td>0.18</td><td>0.14</td><td>0.18</td><td>0.17</td><td>0.21</td><td>0.25</td><td>0.25</td><td>0.17</td><td>0.04</td><td>0.14</td><td>0.11</td><td>0.07</td><td>0.08</td><td>0.07</td><td>0.17</td><td>0.17</td></tr>
+    <tr><td>Iris</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.56</td><td>0.46</td><td>0.56</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td><td>0.57</td></tr>
+    <tr><td>Movement libras</td><td>0.34</td><td>0.41</td><td>0.38</td><td>0.42</td><td>0.37</td><td>0.36</td><td>0.35</td><td>0.25</td><td>0.31</td><td>0.31</td><td>0.32</td><td>0.37</td><td>0.30</td><td>0.36</td><td>0.37</td><td>0.31</td></tr>
+    <tr><td>Musk</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>-0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.01</td><td>0.00</td></tr>
+    <tr><td>Parkinsons</td><td>0.12</td><td>-0.09</td><td>-0.05</td><td>-0.04</td><td>0.16</td><td>0.16</td><td>0.23</td><td>-0.08</td><td>0.19</td><td>-0.09</td><td>0.06</td><td>0.18</td><td>0.22</td><td>-0.10</td><td>-0.10</td><td>-0.09</td></tr>
+    <tr><td>Segmentation</td><td>0.43</td><td>0.40</td><td>0.45</td><td>0.47</td><td>0.41</td><td>0.38</td><td>0.49</td><td>0.45</td><td>0.42</td><td>0.46</td><td>0.40</td><td>0.53</td><td>0.53</td><td>0.51</td><td>0.44</td><td>0.40</td></tr>
+    <tr><td>Sonar all</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.08</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.03</td><td>0.01</td><td>0.00</td></tr>
+    <tr><td>Spectf</td><td>-0.10</td><td>-0.10</td><td>-0.09</td><td>-0.09</td><td>-0.08</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.09</td><td>-0.11</td><td>-0.10</td><td>-0.08</td><td>-0.09</td></tr>
+    <tr><td>Transfusion</td><td>0.03</td><td>0.04</td><td>0.04</td><td>0.05</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.06</td><td>0.06</td><td>0.00</td><td>0.06</td><td>0.06</td><td>0.07</td><td>0.04</td><td>0.04</td><td>0.03</td></tr>
+    <tr><td>Vehicle</td><td>0.11</td><td>0.08</td><td>0.11</td><td>0.12</td><td>0.08</td><td>0.07</td><td>0.08</td><td>0.07</td><td>0.10</td><td>0.14</td><td>0.09</td><td>0.12</td><td>0.15</td><td>0.07</td><td>0.09</td><td>0.09</td></tr>
+    <tr><td>Vertebral column</td><td>0.11</td><td>0.18</td><td>0.18</td><td>0.16</td><td>0.24</td><td>0.24</td><td>0.24</td><td>0.13</td><td>0.13</td><td>0.17</td><td>0.25</td><td>0.25</td><td>0.22</td><td>0.14</td><td>0.14</td><td>0.14</td></tr>
+    <tr><td>Vowel context</td><td>0.11</td><td>0.09</td><td>0.13</td><td>0.10</td><td>0.10</td><td>0.10</td><td>0.14</td><td>0.10</td><td>0.07</td><td>0.08</td><td>0.07</td><td>0.05</td><td>0.05</td><td>0.09</td><td>0.10</td><td>0.07</td></tr>
+    <tr><td>Wine</td><td>0.91</td><td>0.91</td><td>0.81</td><td>0.90</td><td>0.92</td><td>0.88</td><td>0.95</td><td>0.45</td><td>0.81</td><td>0.74</td><td>0.90</td><td>0.82</td><td>0.90</td><td>0.56</td><td>0.83</td><td>0.90</td></tr>
+    <tr><td>Winequality red</td><td>0.08</td><td>0.09</td><td>0.10</td><td>0.10</td><td>0.07</td><td>0.08</td><td>0.07</td><td>0.04</td><td>0.12</td><td>0.17</td><td>0.17</td><td>0.19</td><td>0.39</td><td>0.09</td><td>0.16</td><td>0.11</td></tr>
+    <tr><td>Yeast</td><td>0.19</td><td>0.19</td><td>0.12</td><td>0.19</td><td>0.19</td><td>0.07</td><td>0.12</td><td>0.19</td><td>0.13</td><td>0.16</td><td>0.19</td><td>0.12</td><td>0.11</td><td>0.19</td><td>0.11</td><td>0.19</td></tr>
+  </tbody>
+</table>
 
 
+# 14. ARI scores for Optics on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
+
+<table>
+  
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>No Reduction</th>
+      <th colspan="3">PCA</th>
+      <th colspan="3">Kernel PCA</th>
+      <th colspan="3">VAE</th>
+      <th colspan="3">Isomap</th>
+      <th colspan="3">MDS</th>
+    </tr>
+    <tr>
+      <th>Number of features</th>
+      <th></th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Breast tissue</td><td>0.25</td><td>0.18</td><td>0.17</td><td>0.23</td><td>0.25</td><td>0.22</td><td>0.20</td><td>0.14</td><td>0.33</td><td>0.33</td><td>0.07</td><td>0.16</td><td>0.07</td><td>0.18</td><td>0.23</td><td>0.18</td></tr>
+    <tr><td>Breast Wisconsin</td><td>0.02</td><td>0.41</td><td>0.02</td><td>0.00</td><td>0.37</td><td>0.00</td><td>0.00</td><td>0.45</td><td>0.02</td><td>0.00</td><td>0.34</td><td>0.00</td><td>0.00</td><td>0.04</td><td>0.02</td><td>0.00</td></tr>
+    <tr><td>Ecoli</td><td>0.31</td><td>0.31</td><td>0.42</td><td>0.29</td><td>0.31</td><td>0.49</td><td>0.34</td><td>0.31</td><td>0.34</td><td>0.38</td><td>0.31</td><td>0.25</td><td>0.50</td><td>0.31</td><td>0.41</td><td>0.00</td></tr>
+    <tr><td>Glass</td><td>0.12</td><td>0.07</td><td>0.13</td><td>0.12</td><td>0.24</td><td>0.20</td><td>0.23</td><td>0.14</td><td>0.15</td><td>0.02</td><td>-0.03</td><td>-0.03</td><td>0.00</td><td>0.09</td><td>0.12</td><td>0.10</td></tr>
+    <tr><td>Haberman</td><td>0.13</td><td>0.01</td><td>0.01</td><td>0.02</td><td>0.06</td><td>0.06</td><td>0.00</td><td>0.02</td><td>0.02</td><td>-0.01</td><td>0.01</td><td>0.01</td><td>0.00</td><td>-0.02</td><td>-0.02</td><td>0.09</td></tr>
+    <tr><td>Ionosphere</td><td>0.68</td><td>0.08</td><td>0.14</td><td>0.66</td><td>0.30</td><td>0.73</td><td>0.00</td><td>0.07</td><td>0.03</td><td>0.03</td><td>0.14</td><td>0.10</td><td>0.18</td><td>0.03</td><td>0.66</td><td>0.00</td></tr>
+    <tr><td>Iris</td><td>0.57</td><td>0.61</td><td>0.31</td><td>0.61</td><td>0.60</td><td>0.50</td><td>0.60</td><td>0.50</td><td>0.18</td><td>0.50</td><td>0.56</td><td>0.52</td><td>0.56</td><td>0.53</td><td>0.22</td><td>0.53</td></tr>
+    <tr><td>Movement libras</td><td>0.03</td><td>0.04</td><td>0.03</td><td>0.03</td><td>0.14</td><td>0.04</td><td>0.04</td><td>0.06</td><td>0.02</td><td>0.08</td><td>0.04</td><td>0.04</td><td>0.04</td><td>0.03</td><td>0.03</td><td>0.03</td></tr>
+    <tr><td>Musk</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.01</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.03</td><td>0.00</td><td>0.02</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Parkinsons</td><td>0.04</td><td>0.02</td><td>0.00</td><td>0.03</td><td>0.01</td><td>0.17</td><td>0.00</td><td>0.07</td><td>0.08</td><td>-0.02</td><td>0.03</td><td>0.03</td><td>0.00</td><td>-0.02</td><td>0.03</td><td>0.03</td></tr>
+    <tr><td>Segmentation</td><td>0.25</td><td>0.22</td><td>0.27</td><td>0.33</td><td>0.30</td><td>0.31</td><td>0.32</td><td>0.33</td><td>0.30</td><td>0.46</td><td>0.20</td><td>0.21</td><td>0.27</td><td>0.32</td><td>0.32</td><td>0.34</td></tr>
+    <tr><td>Sonar all</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.06</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Spectf</td><td>-0.10</td><td>0.05</td><td>-0.10</td><td>-0.07</td><td>0.15</td><td>0.00</td><td>0.00</td><td>0.27</td><td>-0.87</td><td>-0.08</td><td>0.12</td><td>-0.08</td><td>0.00</td><td>0.17</td><td>-0.05</td><td>-0.07</td></tr>
+    <tr><td>Transfusion</td><td>0.08</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.02</td><td>0.02</td><td>0.06</td><td>0.04</td><td>0.04</td><td>0.03</td><td>0.03</td><td>0.03</td><td>0.00</td></tr>
+    <tr><td>Vehicle</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.08</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Vertebral column</td><td>0.00</td><td>0.34</td><td>0.34</td><td>0.00</td><td>0.19</td><td>0.19</td><td>0.34</td><td>0.43</td><td>0.43</td><td>0.37</td><td>0.31</td><td>0.31</td><td>-0.03</td><td>0.29</td><td>0.29</td><td>-0.02</td></tr>
+    <tr><td>Vowel context</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td>0.01</tr>
+    <tr><td>Wine</td><td>0.00</td><td>0.68</td><td>0.45</td><td>0.32</td><td>0.77</td><td>0.85</td><td>0.44</td><td>0.41</td><td>0.65</td><td>0.38</td><td>0.70</td><td>0.80</td><td>0.80</td><td>0.77</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Winequality red</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.03</td><td>0.00</td><td>0.00</td><td>0.03</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Yeast</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td></tr>
+  </tbody>
+</table>
 
 
 
