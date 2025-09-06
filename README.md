@@ -2887,114 +2887,59 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-The table below contains each dimension reduction method's average ARI score values across all real datasets.
+# 11. ARI scores for k-means on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 <table>
-  <tr>
-    <th></th>
-    <th>No Reduction</th>
-    <th colspan="3">PCA</th>
-    <th colspan="3">KernelPCA</th>
-    <th colspan="3">Variational Autoencoder</th>
-    <th colspan="3">Isomap</th>
-    <th colspan="3">MDS</th>
-  </tr>
-  <tr>
-    <td>Number of features</td>
-    <td></td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-    <td>K-1</td>
-    <td>25% of D</td>
-    <td>50% of D</td>
-  </tr>
-  <tr>
-    <td>Kmeans</td>
-    <td>0.224</td>
-    <td>0.226</td>
-    <td>0.238</td>
-    <td>0.233</td>
-    <td>0.156</td>
-    <td>0.136</td>
-    <td>0.152</td>
-    <td>0.192</td>
-    <td>0.203</td>
-    <td>0.206</td>
-    <td>0.233</td>
-    <td>0.226</td>
-    <td>0.244</td>
-    <td>0.214</td>
-    <td>0.228</td>
-    <td>0.231</td>
-  </tr>
-  <tr>
-    <td>Agglomerative</td>
-    <td>0.230</td>
-    <td>0.232</td>
-    <td>0.236</td>
-    <td>0.227</td>
-    <td>0.254</td>
-    <td>0.220</td>
-    <td>0.233</td>
-    <td>0.197</td>
-    <td>0.192</td>
-    <td>0.182</td>
-    <td>0.242</td>
-    <td>0.225</td>
-    <td>0.241</td>
-    <td>0.223</td>
-    <td>0.223</td>
-    <td>0.223</td>
-  </tr>
-  <tr>
-    <td>Gaussian mixture</td>
-    <td>0.252</td>
-    <td>0.228</td>
-    <td>0.209</td>
-    <td>0.230</td>
-    <td>0.249</td>
-    <td>0.222</td>
-    <td>0.246</td>
-    <td>0.188</td>
-    <td>0.220</td>
-    <td>0.208</td>
-    <td>0.246</td>
-    <td>0.240</td>
-    <td>0.256</td>
-    <td>0.184</td>
-    <td>0.195</td>
-    <td>0.109</td>
-  </tr>
-  <tr>
-    <td>Optics</td>
-    <td>0.124</td>
-    <td>0.157</td>
-    <td>0.113</td>
-    <td>0.134</td>
-    <td>0.188</td>
-    <td>0.195</td>
-    <td>0.130</td>
-    <td>0.171</td>
-    <td>0.130</td>
-    <td>0.128</td>
-    <td>0.127</td>
-    <td>0.124</td>
-    <td>0.125</td>
-    <td>0.145</td>
-    <td>0.120</td>
-    <td>0.063</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>No Reduction</th>
+      <th colspan="3">PCA</th>
+      <th colspan="3">Kernel PCA</th>
+      <th colspan="3">VAE</th>
+      <th colspan="3">Isomap</th>
+      <th colspan="3">MDS</th>
+    </tr>
+    <tr>
+      <th>Number of features</th>
+      <th></th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+      <th>K-1</th><th>25% of D</th><th>50% of D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Breast tissue</td><td>0.27</td><td>0.29</td><td>0.28</td><td>0.26</td><td>0.19</td><td>0.06</td><td>0.16</td><td>0.27</td><td>0.28</td><td>0.29</td><td>0.30</td><td>0.24</td><td>0.26</td><td>0.27</td><td>0.30</td><td>0.26</td></tr>
+    <tr><td>Breast Wisconsin</td><td>0.67</td><td>0.66</td><td>0.67</td><td>0.67</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.23</td><td>0.58</td><td>0.64</td><td>0.72</td><td>0.70</td><td>0.71</td><td>0.28</td><td>0.67</td><td>0.67</td></tr>
+    <tr><td>Ecoli</td><td>0.51</td><td>0.51</td><td>0.46</td><td>0.48</td><td>0.51</td><td>0.38</td><td>0.45</td><td>0.51</td><td>0.36</td><td>0.46</td><td>0.51</td><td>0.44</td><td>0.71</td><td>0.51</td><td>0.35</td><td>0.53</td></tr>
+    <tr><td>Glass</td><td>0.18</td><td>0.19</td><td>0.24</td><td>0.27</td><td>0.16</td><td>0.04</td><td>0.16</td><td>0.19</td><td>0.15</td><td>0.16</td><td>0.16</td><td>0.17</td><td>0.16</td><td>0.20</td><td>0.21</td><td>0.19</td></tr>
+    <tr><td>Haberman</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.03</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.01</td></tr>
+    <tr><td>Ionosphere</td><td>0.17</td><td>0.15</td><td>0.17</td><td>0.17</td><td>0.06</td><td>0.14</td><td>0.14</td><td>0.18</td><td>0.13</td><td>0.14</td><td>0.10</td><td>0.10</td><td>0.10</td><td>0.10</td><td>0.17</td><td>0.17</td></tr>
+    <tr><td>Iris</td><td>0.62</td><td>0.62</td><td>0.80</td><td>0.62</td><td>0.60</td><td>0.64</td><td>0.60</td><td>0.59</td><td>0.62</td><td>0.59</td><td>0.65</td><td>0.64</td><td>0.65</td><td>0.61</td><td>0.66</td><td>0.61</td></tr>
+    <tr><td>Movement libras</td><td>0.40</td><td>0.36</td><td>0.35</td><td>0.37</td><td>0.21</td><td>0.25</td><td>0.20</td><td>0.30</td><td>0.30</td><td>0.35</td><td>0.35</td><td>0.36</td><td>0.37</td><td>0.38</td><td>0.39</td><td>0.37</td></tr>
+    <tr><td>Musk</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.02</td><td>0.01</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Parkinsons</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.06</td><td>-0.01</td><td>-0.01</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>0.00</td><td>-0.10</td><td>-0.10</td></tr>
+    <tr><td>Segmentation</td><td>0.47</td><td>0.43</td><td>0.48</td><td>0.47</td><td>0.47</td><td>0.24</td><td>0.45</td><td>0.47</td><td>0.44</td><td>0.50</td><td>0.44</td><td>0.45</td><td>0.46</td><td>0.47</td><td>0.46</td><td>0.47</td></tr>
+    <tr><td>Sonar all</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+    <tr><td>Spectf</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.06</td><td>-0.01</td><td>-0.01</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>-0.10</td><td>0.00</td><td>-0.10</td><td>-0.10</td></tr>
+    <tr><td>Transfusion</td><td>0.03</td><td>0.04</td><td>0.04</td><td>0.04</td><td>0.02</td><td>0.02</td><td>0.02</td><td>-0.01</td><td>0.04</td><td>0.07</td><td>0.07</td><td>0.05</td><td>0.06</td><td>0.06</td><td>0.08</td><td>0.08</td></tr>
+    <tr><td>Vehicle</td><td>0.08</td><td>0.08</td><td>0.08</td><td>0.07</td><td>0.04</td><td>0.05</td><td>0.05</td><td>0.06</td><td>0.07</td><td>0.05</td><td>0.09</td><td>0.10</td><td>0.10</td><td>0.08</td><td>0.08</td><td>0.08</td></tr>
+    <tr><td>Vertebral column</td><td>0.21</td><td>0.24</td><td>0.24</td><td>0.25</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.19</td><td>0.19</td><td>0.19</td><td>0.23</td><td>0.23</td><td>0.22</td><td>0.22</td><td>0.22</td><td>0.22</td></tr>
+    <tr><td>Vowel context</td><td>0.12</td><td>0.12</td><td>0.14</td><td>0.11</td><td>0.06</td><td>0.12</td><td>0.10</td><td>0.07</td><td>0.06</td><td>0.10</td><td>0.07</td><td>0.05</td><td>0.07</td><td>0.12</td><td>0.11</td><td>0.12</td></tr>
+    <tr><td>Wine</td><td>0.90</td><td>0.90</td><td>0.90</td><td>0.90</td><td>0.77</td><td>0.78</td><td>0.78</td><td>0.63</td><td>0.73</td><td>0.61</td><td>0.83</td><td>0.85</td><td>0.85</td><td>0.82</td><td>0.87</td><td>0.88</td></tr>
+    <tr><td>Winequality red</td><td>0.10</td><td>0.11</td><td>0.10</td><td>0.11</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.09</td><td>0.07</td><td>0.08</td><td>0.13</td><td>0.14</td><td>0.15</td><td>0.10</td><td>0.11</td><td>0.11</td></tr>
+    <tr><td>Yeast</td><td>0.16</td><td>0.16</td><td>0.08</td><td>0.11</td><td>0.16</td><td>0.01</td><td>0.01</td><td>0.16</td><td>0.09</td><td>0.12</td><td>0.16</td><td>0.11</td><td>0.13</td><td>0.16</td><td>0.14</td><td>0.18</td></tr>
+  </tbody>
 </table>
+
+# 12. ARI scores for k-means on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
+
+
+
+
+
 
 ![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData.pdf)
 ![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData.pdf)
