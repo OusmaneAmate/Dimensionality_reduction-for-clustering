@@ -827,6 +827,8 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
+# 10 Boxplots for synthetic datasets
+
 # 10.1 Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with k-means.
 
 ![Boxplot K-means Clustering](Images/Boxplots_kmeans_artificial_page-0001.jpg)
