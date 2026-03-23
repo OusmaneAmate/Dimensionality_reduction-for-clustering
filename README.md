@@ -3082,9 +3082,9 @@ The table below contains each dimension reduction method's average ARI score val
 
 
 
-![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData.pdf)
+![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData_page-0001.jpg)
 ![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData_page-0001.jpg)
-![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData.pdf)
-![Boxplot Optics Clustering](Images/Boxplot_Optics_RealData.pdf)
+![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData_page-0001.jpg)
+![Boxplot Optics Clustering](Images/Boxplot_Optics_RealData_page-0001.jpg)
 
 
