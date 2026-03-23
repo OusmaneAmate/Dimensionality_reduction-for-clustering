@@ -2934,6 +2934,8 @@ The table below contains each dimension reduction method's average ARI score val
   </tbody>
 </table>
 
+![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData_page-0001.jpg)
+
 # 12. ARI scores for Agglomerative hierarchical clustering on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 <table>
@@ -2981,6 +2983,8 @@ The table below contains each dimension reduction method's average ARI score val
     <tr><td>Yeast</td><td>0.17</td><td>0.17</td><td>0.08</td><td>0.10</td><td>0.17</td><td>0.06</td><td>0.12</td><td>0.17</td><td>0.06</td><td>0.13</td><td>0.17</td><td>0.11</td><td>0.11</td><td>0.17</td><td>0.11</td><td>0.16</td></tr>
   </tbody>
 </table>
+
+![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData_page-0001.jpg)
 
 # 13. ARI scores for Gaussian mixture on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
@@ -3031,6 +3035,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tbody>
 </table>
 
+![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData_page-0001.jpg)
 
 # 14. ARI scores for Optics on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
@@ -3080,11 +3085,6 @@ The table below contains each dimension reduction method's average ARI score val
   </tbody>
 </table>
 
-
-
-![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData_page-0001.jpg)
-![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData_page-0001.jpg)
-![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData_page-0001.jpg)
 ![Boxplot Optics Clustering](Images/Boxplot_Optics_RealData_page-0001.jpg)
 
 
