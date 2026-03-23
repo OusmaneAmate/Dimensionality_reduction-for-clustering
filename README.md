@@ -827,20 +827,20 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 9.1. Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with k-means.
+# 10.1 Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with k-means.
 
 ![Boxplot K-means Clustering](Images/Boxplots_kmeans_artificial_page-0001.jpg)
 
-# 9.2. Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Agglomerative Hierarchical Clustering
+# 10.2 Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Agglomerative Hierarchical Clustering
 ![Boxplot Agglomerative Clustering](Images/Boxplots_agglo_artificial_page-0001.jpg)
 
-# 9.3.  Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Gaussian Mixture Model
+# 10.3  Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Gaussian Mixture Model
 ![Boxplot Gaussian Clustering](Images/Boxplots_gaussian_artificial_page-0001.jpg)
 
-# 9.4.  Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with OPTICS.
+# 10.4  Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with OPTICS.
 ![Boxplot Optics Clustering](Images/Boxplots_optics_artificial_page-0001.jpg)
 
-# 10.  Real Data:
+# 11.  Real Data:
 
 - Breast Tissue 
 <table>
@@ -2895,7 +2895,7 @@ The table below contains each dimension reduction method's average ARI score val
   </tr>
 </table>
 
-# 11. ARI scores for k-means on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
+# 12. ARI scores for k-means on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 <table>
   <thead>
@@ -2944,7 +2944,7 @@ The table below contains each dimension reduction method's average ARI score val
 
 ![Boxplot K-means Clustering](Images/Boxplot_Kmeans_RealData_page-0001.jpg)
 
-# 12. ARI scores for Agglomerative hierarchical clustering on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
+# 13. ARI scores for Agglomerative hierarchical clustering on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 <table>
   
@@ -2994,7 +2994,7 @@ The table below contains each dimension reduction method's average ARI score val
 
 ![Boxplot Agglomerative Clustering](Images/Boxplot_Agglomerative_RealData_page-0001.jpg)
 
-# 13. ARI scores for Gaussian mixture on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
+# 14. ARI scores for Gaussian mixture on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 
 <table>
@@ -3045,7 +3045,7 @@ The table below contains each dimension reduction method's average ARI score val
 
 ![Boxplot Gaussian Clustering](Images/Boxplot_Gaussian_RealData_page-0001.jpg)
 
-# 14. ARI scores for Optics on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
+# 15. ARI scores for Optics on real-world datasets from the UCI repository, with results reported for each dimensionality reduction method and reduction level.
 
 <table>
   
