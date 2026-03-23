@@ -829,17 +829,17 @@ The table below contains each dimension reduction method's average ARI score val
 
 # 10 Boxplots for synthetic datasets
 
-# 10.1 Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with k-means.
+- Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with k-means.
 
 ![Boxplot K-means Clustering](Images/Boxplots_kmeans_artificial_page-0001.jpg)
 
-# 10.2 Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Agglomerative Hierarchical Clustering
+- Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Agglomerative Hierarchical Clustering
 ![Boxplot Agglomerative Clustering](Images/Boxplots_agglo_artificial_page-0001.jpg)
 
-# 10.3  Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Gaussian Mixture Model
+- Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with Gaussian Mixture Model
 ![Boxplot Gaussian Clustering](Images/Boxplots_gaussian_artificial_page-0001.jpg)
 
-# 10.4  Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with OPTICS.
+- Boxplots summarizing ARI scores for different dimensionality reduction methods applied to synthetic datasets, followed by clustering with OPTICS.
 ![Boxplot Optics Clustering](Images/Boxplots_optics_artificial_page-0001.jpg)
 
 # 11.  Real Data:
